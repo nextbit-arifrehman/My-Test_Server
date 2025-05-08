@@ -7,8 +7,11 @@ app.get("/",(req,res) => {
     res.send("My test servsser is running")
 })
 
-app.get("/testdata",(req,res) => {
-    res.send(testdata);
+app.get("/testdata/:id",(req,res) => {
+    const id=parseInt(req.params.id);
+    console.log(id, "aita id")
+    const testata = testdata.find(item => item.id === id) || {};
+    res.send(testata)
 })
 
 app.listen(5000, () => {
