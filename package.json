@@ -1,0 +1,20 @@
+{
+  "name": "my-test-server",
+  "version": "1.0.0",
+  "description": "First Test Version Server Backned By ExressJs",
+  "main": "my-server-test",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Mohammad Arif",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
